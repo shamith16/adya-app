@@ -8,7 +8,7 @@ class PlayerController extends GetxController {
   void onInit() {
     var args = Get.arguments as Map<String, dynamic>;
 
-    videoController = VideoPlayerController.network(args['url'])
+    videoController = VideoPlayerController.asset(args['url'])
       ..initialize().then((_) {
         _startVideoPlayback();
       });

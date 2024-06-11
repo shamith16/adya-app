@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import 'package:video_player/video_player.dart';
 
 class PlayerScreen extends GetView<PlayerController> {
-  const PlayerScreen({Key? key}) : super(key: key);
+  const PlayerScreen({super.key});
 
   static const String routeName = '/playerScreen';
 

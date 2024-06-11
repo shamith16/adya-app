@@ -8,7 +8,7 @@ void main() {
 }
 
 class AdyaApp extends StatelessWidget {
-  const AdyaApp({Key? key}) : super(key: key);
+  const AdyaApp({super.key});
 
   @override
   Widget build(BuildContext context) {

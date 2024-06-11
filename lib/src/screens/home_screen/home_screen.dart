@@ -6,7 +6,7 @@ import 'package:get/get.dart';
 import 'package:video_player/video_player.dart';
 
 class HomeScreen extends GetView<HomeController> {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   static const String routeName = '/homeScreen';
 

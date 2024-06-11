@@ -11,13 +11,16 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.2
   video_player: ^2.6.1
-  get: ^4.6.5
   google_fonts: any
+  get: ^4.6.6
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^4.0.0
+  flutter_gen: ^5.5.0+1
+  build_runner: ^2.4.11
+  flutter_gen_runner: ^5.5.0+1
 flutter:
   uses-material-design: true
   assets:

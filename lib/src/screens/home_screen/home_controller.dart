@@ -69,7 +69,7 @@ class HomeController extends GetxController {
       return;
     }
 
-    videoController = VideoPlayerController.network(url);
+    videoController = VideoPlayerController.asset(url);
     await videoController.initialize();
     _startVideoPlayback();
 

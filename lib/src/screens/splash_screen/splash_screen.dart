@@ -7,7 +7,7 @@ import 'package:get/get.dart';
 import 'package:video_player/video_player.dart';
 
 class SplashScreen extends GetView<SplashController> {
-  const SplashScreen({Key? key}) : super(key: key);
+  const SplashScreen({super.key});
 
   static const String routeName = '/splashScreen';
 
